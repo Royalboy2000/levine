@@ -7,32 +7,18 @@ _  /___/  __/_ |/ /_  / _  / / /  __/
                                      
 "
 
-clear
 
 
-echo "loading............"
-pkg install python
-pkg install python2
-pkg install lolcat
-pkg install wget
-pkg install nodejs-lts
-pkg install python3
-echo "loading.......5%"
-clear
- echo "installing best tools for termux please wait"
-clear
-git clone https://github.com/rajkumardusad/MyServer.git
-clear
-git clone https://github.com/thenurhabib/pyhases
-clear
+
+echo "loading"
+
+
+
 git clone https://github.com/officialputuid/toolsig.git
-clear
-git clone https://github.com/princekrvert/Ravana.git
-clear
-
-echo "loading.....10%"
 
 
 
 
-
+cd toolsig || echo "no file detected"
+npm i
+node index.js
